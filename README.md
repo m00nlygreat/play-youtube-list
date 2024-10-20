@@ -1,8 +1,11 @@
 # play-youtube-list
 
 별 거 아니고 url 파라미터(`?v=`)로 유튜브 영상 ID를 여러 개 주면 차례대로 플레이하는 팝업 창을 띄워줍니다.
+
 코드는 GPT가 짜줬습니다.
 
 ## 예제 보기
 
-[https://m00nlygreat.github.io/play-youtube-list?v=9EOg1LOd7yg,kqLgfQZp5h0,uiOlbEgQz08](https://m00nlygreat.github.io/play-youtube-list?v=9EOg1LOd7yg,kqLgfQZp5h0,uiOlbEgQz08)
+`https://m00nlygreat.github.io/yt?v=` 의 뒤에 유튜브 영상 ID를 콤마(`,`)로 결합해서 붙여줍니다.
+
+[https://m00nlygreat.github.io/yt?v=9EOg1LOd7yg,kqLgfQZp5h0,uiOlbEgQz08](https://m00nlygreat.github.io/play-youtube-list?v=9EOg1LOd7yg,kqLgfQZp5h0,uiOlbEgQz08)
