@@ -8,7 +8,7 @@
 
 `https://m00nlygreat.github.io/yt?v=` 의 뒤에 유튜브 영상 ID를 콤마(`,`)로 결합해서 붙여줍니다.
 
-[https://m00nlygreat.github.io/yt?v=9EOg1LOd7yg,kqLgfQZp5h0,uiOlbEgQz08](https://m00nlygreat.github.io/play-youtube-list?v=9EOg1LOd7yg,kqLgfQZp5h0,uiOlbEgQz08)
+[https://m00nlygreat.github.io/yt?v=9EOg1LOd7yg,kqLgfQZp5h0,uiOlbEgQz08](https://m00nlygreat.github.io/yt?v=9EOg1LOd7yg,kqLgfQZp5h0,uiOlbEgQz08)
 
 
 ## 활용
@@ -24,3 +24,5 @@ javascript:(async()=>{const videoId=new URL(window.location.href).searchParams.g
 ```javascript
 javascript:navigator.clipboard.readText().then(text=>{if(text){location.href=`https://m00nlygreat.github.io/yt?v=${encodeURIComponent(text)}`;}else{alert(%27Clipboard is empty or contains no valid video IDs%27);}});
 ```
+
+북마클릿은... 잘 안되면 여러번 누르세요 ..
