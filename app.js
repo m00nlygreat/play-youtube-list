@@ -20,7 +20,7 @@ function openHeadlessWindow() {
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>YouTube Headless Player</title>
+        <title>YouTube Pop-up player</title>
         <style>
             body, html {
                 margin: 0;
